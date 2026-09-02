@@ -1,0 +1,12 @@
+{
+  "sites": [
+    {
+      "name": "mon-domaine",
+      "url": "https://www.example.com",
+      "gsc_url": "https://www.example.com",
+      "ads_customer_id": "1234567890",
+      "reports": true,
+      "report_dir": "clients/mon-domaine/livrables/Rapports"
+    }
+  ]
+}

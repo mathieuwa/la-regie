@@ -1,0 +1,9 @@
+# Copier ce fichier en google-ads.yaml (meme dossier) et coller VOS valeurs.
+# Creation des acces : tools/ads/docs/onboarding-compte.md
+client_id: VOTRE_CLIENT_ID.apps.googleusercontent.com
+client_secret: VOTRE_CLIENT_SECRET
+developer_token: VOTRE_DEVELOPER_TOKEN
+refresh_token: VOTRE_REFRESH_TOKEN
+use_proto_plus: true
+# Si l'acces passe par un MCC, ajouter (attention : global au fichier) :
+# login_customer_id: "1234567890"

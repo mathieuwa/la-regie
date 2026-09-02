@@ -1,0 +1,12 @@
+clients/
+data/
+logs/
+*.venv/
+venv/
+__pycache__/
+.pytest_cache/
+tools/seo-audit/google-ads.yaml
+tools/seo-audit/sites.json
+tools/seo-audit/*token*.json
+*.bak*
+.DS_Store

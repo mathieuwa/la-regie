@@ -1,0 +1,10 @@
+{
+  "_doc": "Modele de fichier d'operations pour ads_keyword_ops.py (--ops-file). Copier ce fichier, l'adapter au client et a la campagne visee, puis relire chaque entree avant execution : le script fait des ECRITURES directes (mutate) sur le compte Google Ads du site passe via --site. keywords_to_pause : liste de textes exacts de mots-cles a mettre en pause (matching insensible a la casse, au sein de la campagne --campaign uniquement). keywords_to_reduce_cpc : objet {texte du mot-cle: {target_cpc: nouveau CPC en euros}}. Les deux cles peuvent etre videes, mais pas toutes les deux a la fois (le script refuse un fichier sans aucune operation).",
+  "keywords_to_pause": [
+    "exemple mot cle a mettre en pause",
+    "autre exemple de mot cle"
+  ],
+  "keywords_to_reduce_cpc": {
+    "exemple mot cle a reduire": { "target_cpc": 0.35 }
+  }
+}

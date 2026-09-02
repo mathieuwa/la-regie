@@ -1,0 +1,8 @@
+# Dependances tools/ads : pip install -r requirements.txt dans un venv Python 3.12+
+google-ads==31.0.0
+google-api-core==2.30.3
+google-auth==2.52.0
+google-auth-oauthlib==1.4.0
+protobuf==6.33.6
+PyYAML==6.0.3
+pytest==9.1.1
